@@ -6,7 +6,7 @@ Given the string s and the integer k, return the number of the possible arrays t
  
 
 Example 1: 
-
+ 
 Input: s = "1000", k = 10000 
 Output: 1 
 Explanation: The only possible array is [1000] 

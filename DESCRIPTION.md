@@ -9,7 +9,7 @@ Example 1:
 
 Input: s = "1000", k = 10000
 Output: 1
-Explanation: The only possible array is [1000]
+Explanation: The only possible array is [1000] 
 Example 2:
 
 Input: s = "1000", k = 10

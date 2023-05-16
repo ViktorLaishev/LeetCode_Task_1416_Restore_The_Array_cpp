@@ -1,7 +1,7 @@
 class Solution {
 public: 
     int numberOfArrays(string s, int k) {  
-        int n = s.size();
+        int n = s.size(); 
         vector<int> dp(n+1); 
         dp[n] = 1; 
         for(int i = n-1; i >= 0; i--) {  

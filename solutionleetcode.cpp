@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int numberOfArrays(string s, int k) { 
+    int numberOfArrays(string s, int k) {  
         int n = s.size();
         vector<int> dp(n+1); 
         dp[n] = 1;

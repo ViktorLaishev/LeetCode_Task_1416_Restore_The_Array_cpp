@@ -3,7 +3,7 @@ public:
     int numberOfArrays(string s, int k) {  
         int n = s.size();   
         vector<int> dp(n+1);   
-        dp[n] = 1; 
+        dp[n] = 1;  
         for(int i = n-1; i >= 0; i--) {  
             if(s[i] == '0') continue; // leading zero not allowed
             long long num = 0; 

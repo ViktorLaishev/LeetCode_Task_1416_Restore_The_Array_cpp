@@ -6,7 +6,7 @@ public:
         dp[n] = 1; 
         for(int i = n-1; i >= 0; i--) {  
             if(s[i] == '0') continue; // leading zero not allowed
-            long long num = 0;
+            long long num = 0; 
             for(int j = i; j < n; j++) {
                 num = num*10 + (s[j] - '0');
                 if(num > k) break; // number is greater than k

@@ -1,5 +1,5 @@
 class Solution {
-public: 
+public:  
     int numberOfArrays(string s, int k) {  
         int n = s.size();    
         vector<int> dp(n+1);   
